@@ -4,7 +4,7 @@
 
 ## Hello, i'm Paulo.
 
-<img src="{https://www.linkedin.com/in/paulo-normando-469726a0/}" />
+<img src="{[https://www.linkedin.com/in/paulo-normando-469726a0/](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)}" />
 
 ## App that saves and shares business cards with some informations:
 
