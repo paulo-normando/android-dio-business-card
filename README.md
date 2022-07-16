@@ -12,11 +12,12 @@ App that saves and shares business cards with some informations:
 
 Features and Tech:
 
-- Dao
-- RecycleView
-- View Binding
-- ColorPicker
-- Adapter
+- Room
+- MVVM
+- ViewBinding
+- LiveData
+- ListAdapter
+- MaterialDesing
 
 ![hitpaw-1657994434549](https://user-images.githubusercontent.com/91965545/179367059-5783422c-b876-4e7e-90a2-09363ddfe7f8.gif)
 
