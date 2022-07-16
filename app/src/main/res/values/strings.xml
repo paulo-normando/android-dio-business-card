@@ -1,12 +1,14 @@
 <resources>
-    <string name="app_name">BusinessCard</string>
-    <string name="label_business_card">Cartão de Visita</string>
+    <string name="app_name">Business Card Shared</string>
+    <string name="label_business_card">Cartão de visita</string>
     <string name="label_description_new_card">Novo Cartão</string>
-    <string name="label_nome">Nome</string>
+    <string name="label_name">Nome</string>
+    <string name="label_email">Email</string>
     <string name="label_telefone">Telefone</string>
-    <string name="label_email">E-Mail</string>
+    <string name="label_confimar">Confimar</string>
+    <string name="label_show_success">Cartão registrado.</string>
+    <string name="label_share_to">Imagem resgistrada.</string>
     <string name="label_empresa">Empresa</string>
     <string name="label_cor">Cor</string>
-    <string name="label_confirmar">Confirmar</string>
-    <string name="label_show_success">Cartão cadastrado com sucesso</string>
+    <string name="choose_color">Escolha a cor:</string>
 </resources>

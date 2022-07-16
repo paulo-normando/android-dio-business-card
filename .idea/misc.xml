@@ -3,9 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/layout/activity_add_business_card.xml" value="0.264" />
-        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/layout/item_business_card.xml" value="0.4" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.182" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/drawable/color_blob.xml" value="0.1" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/drawable/custombutton.xml" value="0.182" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/drawable/ic_add.xml" value="0.109" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/drawable/ic_close.xml" value="0.1" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/drawable/ic_colors.xml" value="0.183" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/drawable/ic_launcher_background.xml" value="0.182" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/layout/activity_add_business_card.xml" value="0.33" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/elton/AndroidStudioProjects/BusinessCardShared/app/src/main/res/layout/item_business_card.xml" value="0.33" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/drawable/ic_add.xml" value="0.209" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/drawable/ic_close.xml" value="0.209" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/drawable/ic_colors.xml" value="0.1365" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/drawable/ic_launcher_background.xml" value="0.209" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.209" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/layout/activity_add_business_card.xml" value="0.21" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/android-dio-business-card/app/src/main/res/layout/activity_main.xml" value="0.2015625" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/dio-solved/business-card-shared/app/src/main/res/drawable/ic_add.xml" value="0.149" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/dio-solved/business-card-shared/app/src/main/res/drawable/ic_close.xml" value="0.149" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/dio-solved/business-card-shared/app/src/main/res/drawable/ic_colors.xml" value="0.149" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/dio-solved/business-card-shared/app/src/main/res/layout/activity_add_business_card.xml" value="0.35570469798657717" />
+        <entry key="..\:/Users/paulo.normando/Documents/Android-Kotlin/dio-solved/business-card-shared/app/src/main/res/layout/activity_main.xml" value="0.4347571679344646" />
       </map>
     </option>
   </component>
@@ -14,5 +33,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.21" />
+      </ProjectState>
+    </option>
   </component>
 </project>

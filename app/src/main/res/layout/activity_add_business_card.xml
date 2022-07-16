@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.AddBusinessCardActivity"
-    tools:ignore="ExtraText">
+    tools:context=".ui.AddBusinessCardActivity">
 
     <ImageButton
-        android:id="@+id/ib_close"
+        android:id="@+id/imgBtn_close"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="?attr/actionBarItemBackground"
@@ -16,8 +15,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/tv_title"
+    <TextView
+        android:id="@+id/txtV_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -26,18 +25,18 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ib_close" />
+        app:layout_constraintTop_toBottomOf="@id/imgBtn_close" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_nome"
+        android:id="@+id/txtInpLay_nome"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:hint="@string/label_nome"
+        android:hint="@string/label_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_title">
+        app:layout_constraintTop_toBottomOf="@id/txtV_title">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -46,7 +45,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_telefone"
+        android:id="@+id/txtInpLay_telefone"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -54,7 +53,7 @@
         android:hint="@string/label_telefone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_nome">
+        app:layout_constraintTop_toBottomOf="@id/txtInpLay_nome">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -63,7 +62,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_email"
+        android:id="@+id/txtInpLay_email"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -71,7 +70,7 @@
         android:hint="@string/label_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_telefone">
+        app:layout_constraintTop_toBottomOf="@id/txtInpLay_telefone">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -80,7 +79,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_empresa"
+        android:id="@+id/txtInpLay_empresa"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -88,40 +87,50 @@
         android:hint="@string/label_empresa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_email">
+        app:layout_constraintTop_toBottomOf="@id/txtInpLay_email">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="61dp"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_cor"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="0dp"
+
+    <TextView
+        android:id="@+id/textV_chooseColor"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/choose_color"
         android:layout_margin="16dp"
-        android:hint="@string/label_cor"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="8dp"
+        android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_empresa">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:inputType="text" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/txtInpLay_empresa" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_confirmar"
+        android:id="@+id/btnConfirmar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/label_confirmar"
+        android:text="@string/label_confimar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnCorCard"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/actionBarItemBackground"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/textV_chooseColor"
+        app:layout_constraintStart_toEndOf="@+id/textV_chooseColor"
+        app:layout_constraintTop_toBottomOf="@+id/txtInpLay_empresa"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_colors" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

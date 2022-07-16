@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="br.com.dio.businesscard">
+    package="com.elton.businesscardshared">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
 
     <application
         android:name=".App"
@@ -12,12 +15,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BusinessCard"
+        android:theme="@style/Theme.BusinessCardShared"
         tools:targetApi="31">
         <activity
-            android:name="ui.AddBusinessCardActivity"
-            android:exported="true"
-            tools:ignore="MissingClass" />
+            android:name=".ui.AddBusinessCardActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">
@@ -28,5 +30,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
