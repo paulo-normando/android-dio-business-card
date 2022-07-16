@@ -2,7 +2,11 @@
 
 # android-dio-business-card
 
-App that saves and shares business cards with some informations:
+## Hello, i'm Paulo.
+
+<img src="{https://www.linkedin.com/in/paulo-normando-469726a0/}" />
+
+## App that saves and shares business cards with some informations:
 
 - Name.
 - Telephone.
@@ -10,7 +14,7 @@ App that saves and shares business cards with some informations:
 - Company.
 - Card Color.
 
-Features and Tech:
+## Features and Tech:
 
 - Room
 - MVVM
